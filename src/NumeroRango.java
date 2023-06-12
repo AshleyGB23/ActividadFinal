@@ -52,9 +52,10 @@ public class NumeroRango {
 
         System.out.println("Números en el rango:");
         for (int numero : numerosEnRango) {
-            if (numero%2 != 0){
-               System.out.println(numero);
+            if(numero%2 == 0){
+                 System.out.println(numero);
             }
+           
         }
     }
 }
